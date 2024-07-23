@@ -31,7 +31,7 @@
       android:theme="@android:style/Theme.Translucent.NoTitleBar"
       android:exported="true" />
 
-    <!-- Foreground Service -->
+    <!-- Foreground Service, тип сервиса переопределяется в приложении, использующем библиотеку -->
     <service
       android:name="app.notifee.core.ForegroundService"
       android:exported="false" android:foregroundServiceType="dataSync" />
